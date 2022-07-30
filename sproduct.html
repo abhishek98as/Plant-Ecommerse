@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+
+    .small-img-group{
+        display: flex;
+        justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.sproduct select{
+    display: block;
+    padding: 5px 10px; 
+}
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px ;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.sproduct input:focus{
+    outline: none;
+}
+
+.buy-btn{
+    opacity: 1;
+    transition: 0.3s all;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: whitesmoke;
+    background-color: rgb(255, 95, 95);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.abc{
+    text-align:left;
+}
+
+#product1 > div > nav > ul > li.page-item.active > a{
+    background-color: rgb(12, 128, 53);
+}
+
+#product1 > nav > ul > li:nth-child(n):hover>a{
+    background-color:rgb(188, 243, 107);
+    color: white;
+    
+}
+.pagination a{
+    color: green;
+}
+
+    </style>
+</head>
+<body>
+<!-- nav menu for shop-->
+
+    <section id="header">
+        <a href="#"><img src="img/favicon.ico" class="logo"   alt=""></a>
+        <div>
+            <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="sproduct.html"></a>Shop</li>
+                    <li><a href="blog.html"></a>Blog</li>
+                    <li><a href="about.html"></a>About Us</li>
+                    <li><a href="contact.html"></a>Contact</li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+            </ul>
+        </div> <!--hamburger menu-->
+        <div id="mobile">
+            
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+    
+        </div>
+    </section>
+
+<!--product detail section-->
+
+<section class="container sproduct my-5 pt-5">
+
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="img/arrival2.jpg" id="MainImg" alt="">
+            <div class=small-img-group>
+
+
+                <div class=small-img-col>
+                    <img src="img/arrival110.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class=small-img-col>
+                    <img src="img/arrival3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class=small-img-col>
+                    <img src="img/arrival5.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class=small-img-col>
+                    <img src="img/arrival6.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+
+            </div>
+            
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>Home / Tshirt</h6>
+            <h3 class="py-4">Indoor Money Plant cropped 1feet</h3>
+            <h2>Rs.399/-</h2>
+            <select class="my-3">
+                <option>1 feet</option>
+                <option>2 feet</option>
+                <option>only plant</option>
+                <option>plant with pot</option>
+            </select>
+
+            <input type="number" value="1">
+            <button class="buy-btn ">Add to cart</button>
+            <h4 class="mt-5 mb-5">Product Detail</h4>
+            <span>One of the most famous plants you can spot in homes is the money plant. Money plants are kept in houses as they are believed to bring good wealth to the home. They are also a low-maintenance plant and can thrive for a really long period compared to the other green plants.</span>
+        </div>
+    </div>
+    
+</section>
+
+<section id="product1"  class="section-p1">
+
+    <h2 class="abc"> Related Products</h2>
+    <p class="abc">The Best collection of Indoor and Outdoor plants</p>
+    <div class="pro-container">
+
+
+
+        <div class="pro">
+            <img src="img/product5.jpg" alt="">
+            <div class="des">
+                <span>Pachira aquatica</span>
+                <h5>Decorate Home Money Plant</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>700Rs/-</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="img/product6.jpg" alt="">
+            <div class="des">
+                <span>Pachira aquatica</span>
+                <h5>Decorate Home Money Plant</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>700Rs/-</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="img/product7.jpg" alt="">
+            <div class="des">
+                <span>Pachira aquatica</span>
+                <h5>Decorate Home Money Plant</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>700Rs/-</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+        </div>
+
+        <div class="pro">
+            <img src="img/product8.jpg" alt="">
+            <div class="des">
+                <span>Pachira aquatica</span>
+                <h5>Decorate Home Money Plant</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>700Rs/-</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+        </div>
+        <nav aria-label="...">
+            <ul class="pagination mt-5">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item ">
+                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+</section>
+
+<!--footer section-->
+    <footer class="section-p1 border-top">
+
+        <div class="col">
+    
+            <img class="logo" src="img/icon7.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Galgotia college of engineering and technology</p>
+            <p><strong>Phone:</strong>+917007517177</p>
+            <div class="follow">
+    
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            </div>
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">My account</a>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Tract My order</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+    
+            <p>From App store or google Play</p>
+            <div class="row">
+                <img src="img/icon6.png" alt="">
+                <img src="img/icon6.png" alt="">
+    
+            <p>Secure Payments gatways</p>   
+            <img src="img/icon2.png"alt="">
+            
+        </div>    
+    
+    
+        
+         
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script>
+    var MainImg=document.getElementById('MainImg');
+    var smallimg=document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick=function(){
+        MainImg.src=smallimg[0].src;
+    }
+
+    smallimg[1].onclick=function(){
+        MainImg.src=smallimg[1].src;
+    }
+
+    smallimg[2].onclick=function(){
+        MainImg.src=smallimg[2].src;
+    }
+
+    smallimg[3].onclick=function(){
+        MainImg.src=smallimg[3].src;
+    }
+</script>
+</body>
+</html>
